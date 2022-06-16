@@ -1,4 +1,5 @@
 import 'package:alura_exercises/screens/primeiro_exercicio.dart';
+import 'package:alura_exercises/screens/segundo_exercicio.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -53,7 +54,7 @@ class Body extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const PrimeiroExercicio(),
+                      builder: (context) => const SegundoExercicio(),
                     ),
                   );
                 },
