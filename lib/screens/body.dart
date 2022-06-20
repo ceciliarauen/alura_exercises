@@ -95,7 +95,7 @@ class ExerciseButton extends StatelessWidget {
               ),
             ),
           ),
-          Icon(
+          const Icon(
             Icons.check,
             color: Color.fromARGB(255, 1, 66, 92),
             size: 32,

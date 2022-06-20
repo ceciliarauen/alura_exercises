@@ -11,7 +11,7 @@ class PrimeiroExercicio extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Padding(
-        padding: const EdgeInsets.only(right: 16.0, left: 16),
+        padding: const EdgeInsets.only(right: 8, left: 8),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
