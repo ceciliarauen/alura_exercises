@@ -7,7 +7,7 @@ class SegundoExercicio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(234, 204, 238, 247),
+      backgroundColor: const Color.fromARGB(234, 204, 238, 247),
       appBar: AppBar(
         title: const Text(
           'Tarefas',
@@ -53,14 +53,14 @@ class Task extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(181, 5, 139, 163),
+              color: const Color.fromARGB(181, 5, 139, 163),
               borderRadius: BorderRadius.circular(10),
             ),
             height: 140,
           ),
           Container(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 255, 255, 255),
+              color: const Color.fromARGB(255, 255, 255, 255),
               borderRadius: BorderRadius.circular(10),
             ),
             height: 100,
